@@ -9,13 +9,13 @@ A grid-based procedural maze puzzle game built with React 19, TypeScript, and Vi
 Clone the project
 
 ```bash
-  git clone https://github.com/Legacy2832/wfc-maze-runner_-procedural-obstacle-course.git
+  git clone https://github.com/Legacy2832/rb-mazerunner.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd wfc-maze-runner_-procedural-obstacle-course
+  cd rb-mazerunner
 ```
 
 Install dependencies
