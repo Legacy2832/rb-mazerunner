@@ -1,7 +1,7 @@
 
-# WFC Maze Runner: Procedural Obstacle Course
+# RB Maze Runner: Procedural Obstacle Course
 
-A grid-based procedural maze puzzle game built with React 19, TypeScript, and Vite. Mazes are generated using a customized Wave Function Collapse (WFC) algorithm with topological path carving and guaranteed graph solvability validation.
+A grid-based procedural maze puzzle game built with React 19, TypeScript, and Vite. Mazes are generated using a customized Recursive Backtracking (RB) algorithm with topological path carving and guaranteed graph solvability validation.
 
 
 ## Run Locally
