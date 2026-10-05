@@ -31,4 +31,4 @@ Start the server
 ```
 
 **Github Pages**
-https://legacy2832.github.io/wfc-maze-runner_-procedural-obstacle-course/
+https://legacy2832.github.io/rb-mazerunner
