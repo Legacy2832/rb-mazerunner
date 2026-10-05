@@ -582,7 +582,6 @@ export default function App() {
             crashes={gameState.crashes}
             isMuted={isMuted}
             showHint={gameState.showHint}
-            statusMessage={gameState.statusMessage}
             onChangeGridSize={handleChangeGridSize}
             onChangeDifficulty={handleChangeDifficulty}
             onNewMaze={handleNewMaze}

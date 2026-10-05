@@ -21,7 +21,6 @@ interface GameHeaderProps {
   crashes: number;
   isMuted: boolean;
   showHint: boolean;
-  statusMessage: string | null;
   onChangeGridSize: (size: number) => void;
   onChangeDifficulty: (lvl: 1 | 2 | 3 | 4 | 5) => void;
   onNewMaze: () => void;
@@ -39,7 +38,6 @@ export const GameHeader: React.FC<GameHeaderProps> = ({
   crashes,
   isMuted,
   showHint,
-  statusMessage,
   onChangeGridSize,
   onChangeDifficulty,
   onNewMaze,
@@ -172,12 +170,6 @@ export const GameHeader: React.FC<GameHeaderProps> = ({
         </div>
       </div>
 
-      {/* Clean Status Message */}
-      {statusMessage && (
-        <div className="text-xs text-amber-400 font-medium">
-          &gt; {statusMessage}
-        </div>
-      )}
     </div>
   );
 };
